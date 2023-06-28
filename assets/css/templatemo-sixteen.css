@@ -901,10 +901,40 @@ footer .inner-content p a {
   background-color: #121212;
   color: #fff;
 }
-
+/* Start FAQ section contact page */
 .faq {
   padding-left: 25px;
 }
+/* End FAQ section contact page */
+
+/* Start Contact-details */
+.contact-details {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.contact-item i {
+  margin-right: 5px;
+  color: #1a6692;
+}
+
+.contact-item strong {
+  margin-right: 5px;
+  color: #1a6692;
+}
+
+.contact-item span {
+  margin-right: 5px;
+}
+
+/* End Contact-details */
 
 .accordion {
   margin-left: 30px;
@@ -1029,10 +1059,18 @@ footer .inner-content p a {
     margin-left: 0px;
   }
 
+  /* Start FAQ section in contact us page */
   .faq {
     padding-left: 0px;
     margin-top: 20px;
   }
+  /* End FAQ section in contact us page */
+
+  /* Start Contact details */
+  .contact-item {
+    margin-right: 0;
+  }
+  /* End Contact details */
 }
 
 @media (max-width: 992px) {
