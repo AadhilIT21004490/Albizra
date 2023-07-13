@@ -67,15 +67,15 @@ ul.social-icons li a:hover {
 }
 
 a.filled-button {
-	background-color: #0D162E;
-	color: #fff;
-	font-size: 14px;
-	text-transform: capitalize;
-	font-weight: 300;
-	padding: 10px 20px;
-	border-radius: 5px;
-	display: inline-block;
-	transition: all 0.3s;
+  background-color: #0D162E;
+  color: #fff;
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: 300;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  transition: all 0.3s;
 }
 
 a.filled-button:hover {
@@ -446,10 +446,10 @@ header .navbar {
 }
 
 .product-item {
-	border: 1px solid #eee;
-	border-radius: 20px;
-	margin-bottom: 30px;
-	box-shadow: 5px 10px 15px #8888887c
+  border: 1px solid #eee;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  box-shadow: 5px 10px 15px #8888887c
 }
 
 .product-item .down-content {
@@ -458,9 +458,9 @@ header .navbar {
 }
 
 .product-item img {
-	width: 100%;
-	overflow: hidden;
-	border-radius: 20px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 20px;
 }
 
 .product-item .down-content h4 {
@@ -837,47 +837,47 @@ footer .inner-content p a {
 /* Home Services panel*/
 
 .hservices {
-	background-image: url(../images/services-bg.jpg);
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	padding: 10px 0px;
+  background-image: url(../images/services-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 10px 0px;
 }
 
 .hservices .service-item {
-	text-align: center;
+  text-align: center;
 }
 
 .hservices .service-item .icon {
-	background-color: #f7f7f7;
-	padding: 40px;
+  background-color: #f7f7f7;
+  padding: 40px;
 }
 
 .hservices .service-item .icon i {
-	width: 100px;
-	height: 100px;
-	display: inline-block;
-	text-align: center;
-	line-height: 100px;
-	background-color: #f33f3f;
-	color: #fff;
-	font-size: 32px;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  text-align: center;
+  line-height: 100px;
+  background-color: #f33f3f;
+  color: #fff;
+  font-size: 32px;
 }
 
 .hservices .service-item .down-content {
-	background-color: #fff;
-	padding: 40px 30px;
+  background-color: #fff;
+  padding: 40px 30px;
 }
 
 .hservices .service-item .down-content h4 {
-	font-size: 17px;
-	color: #1a6692;
-	margin-bottom: 20px;
+  font-size: 17px;
+  color: #1a6692;
+  margin-bottom: 20px;
 }
 
 .hservices .service-item .down-content p {
-	margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .hservices .service-item .down-content h4 {
@@ -1057,6 +1057,10 @@ footer .inner-content p a {
 .accordion li {
   border-bottom: 1px solid #eee;
   padding: 15px 0px;
+}
+
+.bene ul li {
+  list-style: disc;
 }
 
 /* Responsive Style */
