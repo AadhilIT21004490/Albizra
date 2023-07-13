@@ -330,6 +330,10 @@
   text-shadow: 0px 4px 18px #2c3442;
 }
 
+.nwbutton a {
+  color: #fff;
+}
+
 /* ============================================ */
 .zcard {
   width: 100%;
