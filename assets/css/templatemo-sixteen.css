@@ -895,6 +895,15 @@ footer .inner-content p a {
   margin-bottom: 25px;
 }
 
+.founder {
+  margin: 10px;
+  padding-right: 5px;
+  width: fit-content;
+  height: 450px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
 /* Clients */
 
 .happy-clients {
