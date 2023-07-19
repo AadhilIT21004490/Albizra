@@ -107,8 +107,8 @@
   transition: 0.5s;
 }
 
-.login-box .user-box input:focus ~ label,
-.login-box .user-box input:valid ~ label {
+.login-box .user-box input:focus~label,
+.login-box .user-box input:valid~label {
   top: -20px;
   left: 0;
   color: #bdb8b8;
@@ -171,7 +171,7 @@
   border: none;
   color: #fff;
   cursor: pointer;
-  background-color: #0d162e;
+  background-color: #07034e;
   transition: all 0.2s ease;
 }
 
@@ -390,4 +390,23 @@
 
 .zname:hover {
   cursor: pointer;
+}
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: 16px;
 }
